@@ -86,11 +86,11 @@ function Column({ id, todos, index }: Props) {
 														todo={todo}
 														index={index}
 														id={id}
-														dragHandleProps={
-															provided.dragHandleProps
-														}
 														draggableProps={
 															provided.draggableProps
+														}
+														dragHandleProps={
+															provided.dragHandleProps
 														}
 														innerRef={
 															provided.innerRef
